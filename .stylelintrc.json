@@ -1,0 +1,6 @@
+{
+  "plugins": ["stylelint-scss"],
+  "rules": {
+    "block-no-empty": null
+  }
+}

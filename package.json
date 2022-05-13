@@ -1,0 +1,45 @@
+{
+  "name": "grunt-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "clean": "grunt clean",
+    "lint": "grunt lint",
+    "serve": "grunt serve",
+    "build": "grunt build",
+    "start": "grunt start",
+    "deploy": "grunt deploy --production"
+  },
+  "dependencies": {
+    "bootstrap": "4.4.1",
+    "grunt-contrib-imagemin": "^4.0.0",
+    "jquery": "3.4.1",
+    "popper.js": "1.16.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "gh-pages": "^3.0.0",
+    "grunt": "^1.1.0",
+    "grunt-babel": "^8.0.0",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-htmlmin": "^3.1.0",
+    "grunt-contrib-imagemin": "^4.0.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^4.0.1",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-eslint": "^23.0.0",
+    "grunt-stylelint": "^0.15.0",
+    "grunt-swig-templates": "^0.1.4",
+    "grunt-useref": "^0.0.16",
+    "load-grunt-tasks": "^5.1.0",
+    "sass": "^1.26.8",
+    "stylelint": "^13.6.0",
+    "stylelint-scss": "^3.17.2"
+  }
+}
